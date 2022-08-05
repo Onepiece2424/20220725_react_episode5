@@ -1,6 +1,7 @@
 // /import { CssModules } from "./components/CssModules";
-import { StyledComponents } from "./components/StyledComponents";
-import { StyledJSX } from "./components/StyledJSX";
+// import { StyledComponents } from "./components/StyledComponents";
+// import { StyledJSX } from "./components/StyledJSX";
+import { Emotion } from "./components/Emotion";
 
 export const App = () => {
   return (
@@ -9,7 +10,8 @@ export const App = () => {
       <ColoredMessage />
       <CssModules /> */}
       {/* <StyledJSX /> */}
-      <StyledComponents />
+      {/* <StyledComponents /> */}
+      <Emotion />
     </>
   );
 };
