@@ -2,6 +2,7 @@
 // import { StyledComponents } from "./components/StyledComponents";
 // import { StyledJSX } from "./components/StyledJSX";
 import { Emotion } from "./components/Emotion";
+import { Emotion1 } from "./components/Emotion1";
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
       {/* <StyledJSX /> */}
       {/* <StyledComponents /> */}
       <Emotion />
+      <Emotion1 />
     </>
   );
 };
